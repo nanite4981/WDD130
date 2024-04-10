@@ -169,3 +169,26 @@ footer a:hover{
     text-align: center;
     grid-column: 3/4;
 }
+.victors-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr;
+}
+.testing_msg{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+}
+.cat{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: left;
+}
+.test_prep{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    text-align: right;
+}
+#pretesting, #hcat{
+    height: 50%;
+}
