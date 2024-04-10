@@ -188,13 +188,123 @@ main section img {
     grid-template-columns: repeat(10, 1fr);
 }
 .salmon-card{
-    grid-column: 6/9;
+    grid-column: 1/10;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
 }
 .desolation-card{
-    grid-column: 1/3;
+    grid-column: 1/10;
+    grid-row: 4/5;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
 }
 .grand-card{
-    grid-row: 3/7;
+    grid-column: 1/11;
+    grid-row: 7/8;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+#salmon{
+    grid-column: 1/4;
+    grid-row: 1/3;
+    width: 100%;
+}
+.salmon-text{
+    grid-column: 4/11;
+    grid-row: 1/5;
+    text-align: left;
+}
+.salmon-title{
+    grid-column: 1/4;
+    grid-row: 3/5;
+    text-align: left;
+}
+#desolation{
+    grid-column: 1/4;
+    grid-row: 1/3;
+    width: 100%;
+}
+.desolation-text{
+    grid-column: 4/11;
+    grid-row: 1/5;
+    text-align: left;
+}
+.desolation-title{
+    grid-column: 1/4;
+    grid-row: 3/5;
+    text-align: left;
+}
+#grand{
+    grid-column: 1/4;
+    grid-row: 1/3;
+    width: 100%;
+}
+.grand-text{
+    grid-column: 4/11;
+    grid-row: 1/5;
+    text-align: left;
+}
+.grand-title{
+    grid-column: 1/4;
+    grid-row: 3/5;
+    text-align: left;
+}
+.adertise-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 1/11;
+    grid-row: 9/10;
+    justify-items: center;
+    align-items: center;
+}
+#river-card{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 25%;
+}
+#fun-card{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 25%;
+}
+#chasm-card{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    width: 25%;
+}
+#river-card-text{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    width: 25%;
+    text-align: center;
+}
+#fun-card-text{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    width: 25%;
+    text-align: center;
+}
+#chasm-card-text{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    width: 25%;
+    text-align: center;
+}
+.card2-img{
+    border: 10px black;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px black;
+}
+.card2-img:hover{
+    opacity: .6;
+    transform: scale(1.1);
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
