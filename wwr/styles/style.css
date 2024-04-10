@@ -84,7 +84,7 @@ nav a:hover{
     font-size: 2em;
     margin-top: 10px;
 }
-#home-grid{
+.home-grid{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
 }
@@ -180,10 +180,10 @@ main section img {
     box-shadow: 5px 5px 10px black;
 }
 .card-img, .mountains {
-    width: auto;
+    width: 100%;
 }
 /*new page styles*/
-#rivers-grid{
+.rivers-grid{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
 }
@@ -195,15 +195,6 @@ main section img {
 }
 .grand-card{
     grid-row: 3/7;
-}
-.card2-img{
-    border: 10px black;
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px black;
-}
-.card2-img:hover{
-    opacity: .6;
-    transform: scale(1.1);
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
