@@ -160,3 +160,12 @@ footer a:hover{
 .dropdown:hover .dropdown-content {
     display: block;
 }
+.guidelines-grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 20% 80% 20%;
+}
+.guidelines_group{
+    text-align: center;
+    grid-column: 3/4;
+}
