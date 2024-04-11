@@ -7,7 +7,7 @@ main section img {
 }
 header{
     background-color: white;
-    font-family: Times New Roman, Baskerville, serif;
+    font-family: Baskerville, Times New Roman, serif;
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -22,7 +22,7 @@ header{
 nav{
     display: flex;
     justify-content: space-around;
-    font-family: Times New Roman, Baskerville, serif;
+    font-family: Baskerville, Times New Roman, serif;
 }
 nav a{
     text-align: center;
@@ -71,7 +71,7 @@ nav a:hover{
 }
 .home-title{
     color: #F9EAD8;
-    font-family: Times New Roman, Baskerville, serif;
+    font-family: Baskerville, Times New Roman, serif;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -99,7 +99,7 @@ nav a:hover{
     text-align: center;
 }
 h1, h2, h4{
-    font-family: Times New Roman, Baskerville, serif;
+    font-family: Baskerville, Times New Roman, serif;
     color: #144B64;
 }
 p, li{
@@ -191,4 +191,15 @@ footer a:hover{
 }
 #pretesting, #hcat{
     height: 50%;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+img{
+    box-shadow: 5px 5px 10px #555;
+}
+body{
+    text-shadow: 2px 2px 5px #aaa;
+    font-size: 1.25em;
 }
